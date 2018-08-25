@@ -1,6 +1,8 @@
-p=float(input("Enter Principle Amount"))
-n=int(input("Enter no of Years"))
-r=float(input("Enter rate of interest"))
-SI=(p*n*r)/100
-print(SI)
-
+lst = []
+num = int(input('How many numbers: '))
+ 
+for each in range(num):
+    numbers = int(input('Enter number '))
+    lst.append(numbers)
+ 
+print("Greatest no in the list is :", max(lst), "\nSmallest no in the list is :", min(lst))

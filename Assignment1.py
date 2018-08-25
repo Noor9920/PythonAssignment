@@ -1,5 +1,3 @@
-bs=int(input("ENTER BASIC SALARY"))
-DA=bs*0.6
-HRA=bs*0.15
-gs=bs+DA+HRA
-print("Gross Salary is ",gs)
+n=int(input("Enter value of n"))
+OUTPUT=list(range(1,n+1))
+print(OUTPUT)
